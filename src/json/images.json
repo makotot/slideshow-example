@@ -1,0 +1,22 @@
+[
+  {
+    "url": "http://dummyimage.com/600x400/000/fff.png&text=1",
+    "width": "600"
+  },
+  {
+    "url": "http://dummyimage.com/600x400/133cc4/fff.png&text=2",
+    "width": "600"
+  },
+  {
+    "url": "http://dummyimage.com/600x400/79ba29/fff.png&text=3",
+    "width": "600"
+  },
+  {
+    "url": "http://dummyimage.com/600x400/b35858/fff.png&text=4",
+    "width": "600"
+  },
+  {
+    "url": "http://dummyimage.com/600x400/d6d617/fff.png&text=5",
+    "width": "600"
+  }
+]

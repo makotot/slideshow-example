@@ -22,6 +22,12 @@ module.exports = function (grunt) {
             cwd: '<%= path.src %>/js',
             src: '**/*.js',
             dest: '<%= path.env %>/js'
+          },
+          {
+            expand: true,
+            cwd: '<%= path.src %>/json',
+            src: '*.json',
+            dest: '<%= path.env %>/json'
           }
         ]
       }
@@ -36,6 +42,9 @@ module.exports = function (grunt) {
         ]
       },
       all: {
+        options: {
+          layout: 'default.hbs'
+        },
         files: [
           {
             expand: true,
@@ -57,7 +66,8 @@ module.exports = function (grunt) {
             expand: true,
             cwd: '<%= path.src %>/scss',
             src: '*.scss',
-            dest: '<%= path.env %>/css'
+            dest: '<%= path.env %>/css',
+            ext: '.css'
           }
         ]
       }
