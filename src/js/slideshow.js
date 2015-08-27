@@ -95,7 +95,7 @@ var slideshow = {
       template += '<li';
       template += (i !== 0) ? '>' : ' class="is-active">';
       template += '<a href="#">';
-      template += '</a>'
+      template += '</a>';
       template += '</li>';
     }
 
